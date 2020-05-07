@@ -1,0 +1,21 @@
+.faq {
+    @apply relative h-full;
+}
+.faq__img {
+    @apply absolute w-1/2 pr-12;
+    right: -40px;
+    top: 0;
+    min-height: 435px;
+    min-width: 587px;
+    height: 63%;
+    background: url(../../images/faq-img.png) center center no-repeat;
+    background-size: cover;
+    transform: scale(1, 1);
+    border-radius: 40px;
+}
+.faq__wrap {
+    @apply bg-custom-light-blue;
+}
+.faq__list {
+    @apply w-1/2 pr-12;
+}

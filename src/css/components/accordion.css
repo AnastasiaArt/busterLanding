@@ -1,0 +1,10 @@
+.accordion__item {
+    @apply py-10 border-b;
+    border-color: rgba(83, 135, 151, 0.25);
+}
+.accordion__item h4 {
+    color: rgba(18, 43, 63, 0.72);
+}
+.accordion__item--active h4 {
+    @apply text-custom-dark-blue opacity-100 mb-8;
+}

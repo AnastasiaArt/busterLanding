@@ -1,0 +1,13 @@
+.slider {
+    margin-bottom: 200px;
+}
+.slider__list {
+    @apply flex w-full;
+}
+.slider__card {
+    @apply p-6 mr-4 w-1/5;
+    min-width: 268px;
+}
+.slider__btn:hover svg path {
+    stroke: #122B3F;
+}

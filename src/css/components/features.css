@@ -1,0 +1,17 @@
+.features__wrap {
+    @apply flex justify-center items-center h-full;
+    margin-bottom: 200px;
+}
+.features__img {
+    @apply w-3/5 ml-auto;
+    min-width: 543px;
+    min-height: 435px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(../../images/features-img.png);
+    background-size: contain;
+}
+.features__note {
+    @apply w-2/3 pl-6 font-bold text-5xl text-custom-dark-blue opacity-100 leading-tight border-l-4 border-custom-orange;
+    letter-spacing: 0.004em;
+}

@@ -1,0 +1,66 @@
+/*fonts*/
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('../../fonts/roboto-v20-cyrillic-regular.woff2') format('woff2'),
+    url('../../fonts/roboto-v20-cyrillic-regular.woff') format('woff')
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+    url('../../fonts/roboto-v20-cyrillic-500.woff2') format('woff2'),
+    url('../../fonts/roboto-v20-cyrillic-500.woff') format('woff')
+
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+    url('../../fonts/roboto-v20-cyrillic-700.woff2') format('woff2'),
+    url('../../fonts/roboto-v20-cyrillic-700.woff') format('woff')
+
+}
+html {
+    @apply overflow-x-hidden;
+}
+body {
+    @apply text-base leading-normal bg-custom-white overflow-x-hidden;
+    color: rgba(18, 43, 63, 0.87);
+    font-family: Roboto, serif;
+}
+
+h1 {
+    @apply text-5xl opacity-100 leading-tight font-bold;
+    letter-spacing: 0.004em;
+;
+}
+
+h2 {
+    @apply text-base uppercase text-custom-orange font-medium leading-loose opacity-100 mb-4;
+}
+
+h3 {
+    @apply font-bold text-3xl leading-tight text-custom-dark-blue opacity-100;
+    letter-spacing: 0.15px;
+}
+
+h4 {
+    @apply text-custom-dark-blue text-2xl opacity-100 py-6;
+}
+
+a:hover {
+    @apply underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+}
+section {
+    margin: 200px 0;
+}

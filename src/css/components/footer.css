@@ -1,0 +1,14 @@
+.footer {
+    @apply py-12;
+}
+.footer__wrap {
+    @apply flex justify-between items-center;
+}
+
+.footer__list {
+    @apply flex-grow flex justify-end items-center;
+}
+
+.footer__link {
+    @apply pl-8 py-4 text-custom-dark-blue opacity-100;
+}

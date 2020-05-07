@@ -1,0 +1,17 @@
+@import '../../node_modules/tailwindcss/base.css';
+
+@import '../../node_modules/tailwindcss/components.css';
+@import "components/base.css";
+@import "components/header-nav.css";
+@import "components/btn.css";
+@import "components/intro.css";
+@import "components/features.css";
+@import "components/tabs.css";
+@import "components/slider.css";
+@import "components/card.css";
+@import "components/accordion.css";
+@import "components/faq.css";
+@import "components/before-footer.css";
+@import "components/footer.css";
+
+@import '../../node_modules/tailwindcss/utilities.css';

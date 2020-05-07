@@ -1,0 +1,28 @@
+.intro {
+    @apply h-screen bg-custom-dark-blue text-custom-white;
+    padding-top: 88px;
+    margin: 0;
+}
+.intro__description {
+    @apply w-1/2 relative pr-10;
+}
+.intro__description::before {
+    @apply absolute bg-custom-orange;
+    content: "";
+    width: 102px;
+    height: 4px;
+    left: 0;
+    top: -2rem;
+}
+.intro__img {
+    @apply w-1/2 text-right;
+}
+.intro__img img {
+    @apply mr-0 ml-auto;
+}
+.intro__wrap {
+    @apply h-full w-full flex items-center justify-center flex-wrap py-16;
+}
+.intro__list {
+    @apply w-1/2 self-end flex flex-wrap justify-between mr-auto;
+}

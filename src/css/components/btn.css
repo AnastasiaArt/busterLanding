@@ -1,0 +1,19 @@
+.btn {
+    @apply py-3 px-8 rounded-lg font-medium inline-block;
+}
+.btn:hover {
+    @apply no-underline;
+    box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(255, 255, 255, 0.06);
+}
+.btn-orange {
+    @apply bg-custom-orange text-custom-white;
+}
+.btn-border {
+    @apply inline-block border-b-2 border-transparent font-medium opacity-100;
+}
+.btn-border:hover {
+    @apply border-b-2 border-custom-orange no-underline;
+}
+.btn-icon {
+    @apply inline-flex items-center;
+}

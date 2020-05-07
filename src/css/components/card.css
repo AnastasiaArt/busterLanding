@@ -1,0 +1,9 @@
+.card {
+    @apply rounded-lg shadow-lg;
+}
+.card--flex {
+    @apply text-center flex flex-col justify-between items-center
+}
+.card__price {
+    @apply font-bold text-custom-orange text-2xl py-8
+}

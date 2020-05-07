@@ -1,0 +1,6 @@
+.before-footer {
+    @apply m-0 bg-custom-dark-blue text-custom-white py-16;
+}
+.before-footer__title {
+    @apply  text-custom-white mb-6;
+}
